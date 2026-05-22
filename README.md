@@ -5,7 +5,6 @@
 ![Power Query](https://img.shields.io/badge/Power%20Query-1D9E75?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-> An end-to-end interactive sales dashboard built on the Superstore dataset — covering data cleaning, DAX measures, and rich visual storytelling.
 
 ---
 
