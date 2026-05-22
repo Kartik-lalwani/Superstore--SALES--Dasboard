@@ -48,7 +48,7 @@ The raw dataset had several quality issues that were fixed in Power Query:
 
 ```dax
 -- Profit Margin %
-Margin % = DIVIDE(SUM('Sample - Superstore'[Profit]), SUM('Sample - Superstore'[Sales])) * 100
+Margin % = SUM('Sample - Superstore'[Profit])/ SUM('Sample - Superstore'[Sales]) * 100
 
 -- Total Sales
 Total Sales = SUM('Sample - Superstore'[Sales])
@@ -105,18 +105,9 @@ Quantity Sold = SUM('Sample - Superstore'[Quantity])
 
 ---
 
-## 🚀 How to Run This Project
-
-1. Download the `.pbix` file from this repository
-2. Open it in **Power BI Desktop** (free download from Microsoft)
-3. The dataset is embedded — no additional setup needed
-4. Use the **Year** and **Region** slicers to explore the dashboard interactively
-
----
-
 ## 📸 Dashboard Preview
 
-![Superstore Dashboard]("C:\Users\Kartik\Downloads\Screenshot_22-5-2026_12163_.jpeg")
+<img src="https://github.com/Kartik-lalwani/Superstore--SALES--Dasboard/blob/main/SUPERSALES%20DASHBORAD.jpeg?raw=true" alt="Superstore Sales Dashboard" width="100%"/>
 
 ---
 
@@ -124,13 +115,15 @@ Quantity Sold = SUM('Sample - Superstore'[Quantity])
 
 If you found this project helpful or have feedback, feel free to connect!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
+<p align="left">
+  <a href="https://www.linkedin.com/in/kartik-lalwani" target="_blank">
+     <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  <a href="mailto:kartiklalwani65@gmail.com">
+      <img src="https://skillicons.dev/icons?i=gmail" />
+  </a>
+</p>
 
 ---
 
 ⭐ **If you found this project useful, please give it a star!**
-
----
-
-*Built with 💙 using Power BI | Data cleaned in Power Query | Measures written in DAX*
