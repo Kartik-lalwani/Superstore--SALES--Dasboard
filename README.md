@@ -9,12 +9,6 @@
 
 ---
 
-## 📸 Dashboard Preview
-
-![Superstore Dashboard](dashboard_screenshot.png)
-
----
-
 ## 📌 Project Overview
 
 This project demonstrates a complete **Business Intelligence workflow** using Microsoft Power BI:
@@ -111,22 +105,18 @@ Quantity Sold = SUM('Sample - Superstore'[Quantity])
 
 ---
 
-## 📁 Dataset
-
-- **Source:** Superstore Sales Dataset (Kaggle / Tableau Sample)
-- **Rows:** 9,994
-- **Columns:** 21
-- **Period:** 2014 – 2017
-- **Fields:** Order ID, Customer, Segment, Region, Category, Sub-Category, Sales, Quantity, Discount, Profit
-
----
-
 ## 🚀 How to Run This Project
 
 1. Download the `.pbix` file from this repository
 2. Open it in **Power BI Desktop** (free download from Microsoft)
 3. The dataset is embedded — no additional setup needed
 4. Use the **Year** and **Region** slicers to explore the dashboard interactively
+
+---
+
+## 📸 Dashboard Preview
+
+![Superstore Dashboard]("C:\Users\Kartik\Downloads\Screenshot_22-5-2026_12163_.jpeg")
 
 ---
 
